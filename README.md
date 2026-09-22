@@ -80,7 +80,7 @@ or a smaller geographic bounding box will speed up iteration.
   a starting point, not a statistically derived cutoff — adjust it for your
   use case.
 
-## Known limitations / future work
+## future work
 
 - **Weather features are placeholders.** `Avg_Temp` and `Precip_mm` are
   referenced in the feature list but no weather data source is wired up yet,
