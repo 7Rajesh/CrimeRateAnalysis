@@ -49,11 +49,7 @@ pip install -r requirements.txt
 The raw dataset is too large to check into the repo, so it isn't included.
 You have two options, both configured in the notebook's data-loading cell:
 
-- **Download automatically** (default): the notebook uses `gdown` to pull a
-  pre-exported CSV from Google Drive. This is convenient but depends on that
-  file remaining shared/available — treat it as a demo convenience, not a
-  stable data pipeline.
-- **Use your own copy**: download the source data directly from the
+: download the source data directly from the
   [Chicago Data Portal – Crimes dataset](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2),
   save it as `data/crime_data.csv`, and set `DOWNLOAD_DATA = False` in the
   notebook.
