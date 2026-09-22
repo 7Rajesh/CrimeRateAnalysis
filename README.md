@@ -28,7 +28,7 @@ chicago-crime-forecasting/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-├── data/                      # crime_data.csv goes here (not checked in)
+├── data/
 └── notebooks/
     └── crime_forecasting_analysis.ipynb
 ```
